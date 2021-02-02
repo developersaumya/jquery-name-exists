@@ -45,7 +45,7 @@ $.validator.addMethod("checkPlantCity",
 		plant_name:{
 			required: true,
 			checkPlantCity: true
-		}
+		} 
       },
       errorPlacement: function(error, element) {
        var elem = $(element);
